@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    background-image:url("backgroundgImg.png");
+    background-size: cover;
+    font-size: 20;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#Blackjack{
+    color: goldenrod;
+    margin: 30 auto;
+}
+p{
+    color: white;
+    font-weight: bold;
+}
+.btn{
+    display:block;
+    margin: 20 auto;
+    background-color: goldenrod;
+    font-size: 25;
+    font-weight: bold;
+    color: rgb(0, 143, 0);
+    padding: 10 30;
+    border: 0px;
+    border-radius: 5px;
+    margin: 30px auto 10px; 
+}
+#newcard{
+    display:block;
+    padding: 10 30;
+}
+#hold-btn{
+    padding: 10 50;
+
+}
+.btn:hover{
+    background-color: red;
+}
+.card-img{
+    width: 120px;
+    border-radius: 10px;
+    border: 1px solid black;
+
+}
+#dealerSum{
+color: black;
+background-color: red;
+width: 100;
+margin: 10 auto;
+padding:10 25;
+border: 2px solid black;
+border-radius: 10px;
+font-size: 20px;
+}
+#btns{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+#message-el{
+    font-size: 50px;
+}
+
+#dealerImg{
+margin: 15 auto;
+border: 5px black solid;
+border-radius: 50%;
+width: 150px;
+}
+#sum-el{
+    color: black;
+    background-color: lightgreen;
+    width: 100;
+    margin: 10 auto;
+    padding: 10 25;
+    border: 2px solid black;
+    border-radius: 10px; 
+    font-size: 20px; 
+
+}
+/* Styles for the form */
+#sign-up {
+    width:100%;
+    margin: 0 auto;
+    padding: 20px 0px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    position: fixed;
+    height: 100%;
+}
+
+/* Styles for input fields */
+#name{
+    width: 90%;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Styles for radio buttons */
+.radio {
+    margin-bottom: 20px;
+}
+
+.radio input[type="radio"] {
+   display: none; 
+}
+
+.radio label {
+    cursor: pointer;
+    display: inline-block;
+    width: 200px;
+    height: 50px; 
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    line-height: 20px;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.radio label:hover {
+    background-color: #e0e0e0;
+}
+
+.radio input:checked+label{
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Styles for continue button */
+#continue-btn {
+    text-align: center;
+}
+
+#continue-btn button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#continue-btn button:hover {
+    background-color: #0056b3;
+}
+
+

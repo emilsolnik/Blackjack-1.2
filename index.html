@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <form id="sign-up">
+            <input id="name" type="text" name="fullName" placeholder="Enter your full name" required/>
+            <div class="radio">
+                <input type="radio" id="football" value="emil" name="themes" required>
+                <label for="football">football(soon😶‍🌫)</label>
+            </div>
+            
+            <div class="radio">
+                <input type="radio" id="classic" value="" name="themes" required>
+                <label for="classic">classic</label>
+            </div>
+            
+            <div class="radio">
+                <input type="radio" id="emil" value="emil" name="themes" required>
+                <label for="emil">emil</label>
+            </div>  
+            <div id="continue-btn">
+                <button type="submit" id="contionue-btn">continue</button>
+            </div>
+        </form>
+        <h1 id="Blackjack">Blackjack</h1>
+        <img id="dealerImg" src="Emil/dealerEmil.png">
+        <p id="dealerSum"> dealer:</p>
+         <div id = "dealer-cards"></div>
+        <p id="message-el">want to play a round?</p>
+        <div id="card-img"></div>
+        <p id="sum-el">player:</p>
+        <button class="btn" id="startbutton" >start game</button>
+        <div id="btns">
+            <button class="btn" id="hold-btn">hold</button>
+            <button class="btn" id="newcard"> new card</button>
+        </div>
+        <p id="player-el"> user : 0$</p>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
